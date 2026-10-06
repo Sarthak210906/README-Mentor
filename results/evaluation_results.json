@@ -1,0 +1,2960 @@
+{
+  "timestamp": "2026-10-06T05:53:45.804Z",
+  "total_tasks": 10,
+  "skill_version": "v3",
+  "average_baseline_score": 84.9,
+  "average_skill_score": 97.2,
+  "average_improvement": 12.3,
+  "improved_count": 8,
+  "same_count": 1,
+  "worse_count": 1,
+  "improvement_rate": 80,
+  "regression_rate": 10,
+  "no_change_rate": 10,
+  "category_averages": {
+    "title": {
+      "name": "Project Title",
+      "max": 10,
+      "baseline_avg": 10,
+      "skill_avg": 10,
+      "delta_avg": 0
+    },
+    "description": {
+      "name": "Description",
+      "max": 10,
+      "baseline_avg": 8.2,
+      "skill_avg": 10,
+      "delta_avg": 1.8
+    },
+    "features": {
+      "name": "Features",
+      "max": 10,
+      "baseline_avg": 10,
+      "skill_avg": 10,
+      "delta_avg": 0
+    },
+    "technologies": {
+      "name": "Technologies",
+      "max": 10,
+      "baseline_avg": 10,
+      "skill_avg": 10,
+      "delta_avg": 0
+    },
+    "installation": {
+      "name": "Installation",
+      "max": 15,
+      "baseline_avg": 10.4,
+      "skill_avg": 14.6,
+      "delta_avg": 4.2
+    },
+    "usage": {
+      "name": "Usage / Running",
+      "max": 15,
+      "baseline_avg": 12.9,
+      "skill_avg": 13.9,
+      "delta_avg": 1
+    },
+    "configuration": {
+      "name": "Configuration",
+      "max": 10,
+      "baseline_avg": 9.1,
+      "skill_avg": 10,
+      "delta_avg": 0.9
+    },
+    "structure": {
+      "name": "Structure",
+      "max": 5,
+      "baseline_avg": 4.8,
+      "skill_avg": 5,
+      "delta_avg": 0.2
+    },
+    "contribution_license": {
+      "name": "Contribution & License",
+      "max": 5,
+      "baseline_avg": 2.1,
+      "skill_avg": 5,
+      "delta_avg": 2.9
+    },
+    "accuracy": {
+      "name": "Accuracy (Anti-Hallucination)",
+      "max": 10,
+      "baseline_avg": 7.4,
+      "skill_avg": 8.7,
+      "delta_avg": 1.3
+    }
+  },
+  "tasks": [
+    {
+      "task_id": 1,
+      "project_name": "Student Attendance Management System",
+      "has_missing_info": false,
+      "notes": "Complete project information provided across all fields.",
+      "baseline_score": 90.5,
+      "skill_score": 100,
+      "improvement": 9.5,
+      "result": "improved",
+      "baseline_output": "# Student Attendance Management System\n\nA modern web application designed for schools and universities to automate attendance marking, student profile management, and periodic attendance reporting.\n\n## Technologies\nReact, Node.js, Express, MongoDB, Tailwind CSS\n\n## Features\n- Student registration and profile management\n- One-click classroom attendance marking\n- Automated attendance percentage calculations\n- Exportable monthly attendance reports (PDF/CSV)\n\n## Installation\n```bash\nnpm install\n```\n\n## How to Run\n```bash\nnpm run dev\n```\n\n### Environment Variables\nSet the following variables in your .env file:\nMONGO_URI=your_mongo_uri_here\nJWT_SECRET=your_jwt_secret_here\nPORT=your_port_here\n\n## Project Structure\n```\nsrc/\n  components/\n  controllers/\n  models/\n  routes/\nserver.js\n```\n\n## License\nMIT\n",
+      "skill_output": "# Student Attendance Management System\n> `React` • `Node.js` • `Express` • `MongoDB` • `Tailwind CSS`\n\n## About the Project\nA modern web application designed for schools and universities to automate attendance marking, student profile management, and periodic attendance reporting.\n\nDesigned with clean architecture, strict reliability, and modern software engineering practices.\n\n## Key Features\n- **Student**: Student registration and profile management\n- **One-click**: One-click classroom attendance marking\n- **Automated**: Automated attendance percentage calculations\n- **Exportable**: Exportable monthly attendance reports (PDF/CSV)\n\n## Built With\n- **React**\n- **Node.js**\n- **Express**\n- **MongoDB**\n- **Tailwind CSS**\n\n## Getting Started\n\n### Prerequisites\nEnsure your local development environment has the requisite language runtime and package manager installed:\n- React (Recommended latest LTS)\n- Node.js (Recommended latest LTS)\n- Express (Recommended latest LTS)\n- MongoDB (Recommended latest LTS)\n- Tailwind CSS (Recommended latest LTS)\n\n### Installation\n1. Clone the repository:\n   ```bash\n   git clone <repository-url>\n   cd <project-folder>\n   ```\n2. Install required dependencies:\n   ```bash\n   npm install\n   ```\n\n### Running the Project\nExecute the project runtime:\n```bash\nnpm run dev\n```\nApplication will initialize on local host or configured port (e.g. `http://localhost:3000`).\n\n## Configuration\n| Variable | Description | Example / Note |\n| :--- | :--- | :--- |\n| `MONGO_URI` | Application configuration parameter | Required in `.env` |\n| `JWT_SECRET` | Application configuration parameter | Required in `.env` |\n| `PORT` | Application configuration parameter | Required in `.env` |\n\n> [!WARNING]\n> Never commit actual secret keys or credentials to public version control. Duplicate `.env.example` to `.env` before starting.\n\n## Project Structure\n```\nsrc/\n  components/\n  controllers/\n  models/\n  routes/\nserver.js\n```\n## API Reference\n```http\nPOST /api/students - Register student\nPOST /api/attendance - Mark attendance\nGET /api/reports/:id - Fetch report\n```\n## Contributing\nContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.\n\n1. Fork the Project\n2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the Branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## License\nDistributed under the MIT License. See `LICENSE` for more information.\n",
+      "category_scores": {
+        "title": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "description": {
+          "baseline": 8,
+          "skill": 10,
+          "max": 10,
+          "delta": 2
+        },
+        "features": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "technologies": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "installation": {
+          "baseline": 10,
+          "skill": 15,
+          "max": 15,
+          "delta": 5
+        },
+        "usage": {
+          "baseline": 15,
+          "skill": 15,
+          "max": 15,
+          "delta": 0
+        },
+        "configuration": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "structure": {
+          "baseline": 5,
+          "skill": 5,
+          "max": 5,
+          "delta": 0
+        },
+        "contribution_license": {
+          "baseline": 2.5,
+          "skill": 5,
+          "max": 5,
+          "delta": 2.5
+        },
+        "accuracy": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        }
+      },
+      "baseline_eval": {
+        "taskId": 1,
+        "projectName": "Student Attendance Management System",
+        "totalScore": 90.5,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 8,
+            "max": 10,
+            "details": [
+              "General description exists without dedicated header (+3)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 4/4 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 5/5 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 10,
+            "max": 15,
+            "details": [
+              "Missing explicit prerequisites breakdown (0)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 3 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Complete project directory layout documented (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 2.5,
+            "max": 5,
+            "details": [
+              "Missing or incomplete contribution guide (0)",
+              "Accurately cited declared MIT license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "High factual alignment with complete input (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "General description exists without dedicated header (+3)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 4/4 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 5/5 declared technologies (+6)",
+          "Missing explicit prerequisites breakdown (0)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 3 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Complete project directory layout documented (+5)",
+          "Missing or incomplete contribution guide (0)",
+          "Accurately cited declared MIT license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "High factual alignment with complete input (+5)"
+        ]
+      },
+      "skill_eval": {
+        "taskId": 1,
+        "projectName": "Student Attendance Management System",
+        "totalScore": 100,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 4/4 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 5/5 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 3 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Complete project directory layout documented (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Structured open-source contribution guide included (+2.5)",
+              "Accurately cited declared MIT license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "High factual alignment with complete input (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 4/4 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 5/5 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 3 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Complete project directory layout documented (+5)",
+          "Structured open-source contribution guide included (+2.5)",
+          "Accurately cited declared MIT license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "High factual alignment with complete input (+5)"
+        ]
+      }
+    },
+    {
+      "task_id": 2,
+      "project_name": "E-Commerce Website",
+      "has_missing_info": true,
+      "notes": "Missing environment variables and project structure. Database is PostgreSQL/Prisma so baseline models might invent DATABASE_URL.",
+      "baseline_score": 80.5,
+      "skill_score": 97,
+      "improvement": 16.5,
+      "result": "improved",
+      "baseline_output": "# E-Commerce Website\n\nA full-featured digital marketplace featuring shopping carts, customer review workflows, and catalog browsing.\n\n## Technologies\nNext.js, TypeScript, PostgreSQL, Prisma\n\n## Features\n- Product catalog with dynamic filtering and search\n- Persistent user shopping cart\n- Customer reviews and star ratings\n\n## Installation\n```bash\nnpm install\n```\n\n## How to Run\n```bash\nnpm run build && npm run start\n```\n\n### Configuration\nConnect to your database:\n```bash\nDATABASE_URL=\"mongodb://root:password123@localhost:27017/app_db\"\n```\n\n\n## License\nApache-2.0\n",
+      "skill_output": "# E-Commerce Website\n> `Next.js` • `TypeScript` • `PostgreSQL` • `Prisma`\n\n## About the Project\nA full-featured digital marketplace featuring shopping carts, customer review workflows, and catalog browsing.\n\nDesigned with clean architecture, strict reliability, and modern software engineering practices.\n\n## Key Features\n- **Product**: Product catalog with dynamic filtering and search\n- **Persistent**: Persistent user shopping cart\n- **Customer**: Customer reviews and star ratings\n\n## Built With\n- **Next.js**\n- **TypeScript**\n- **PostgreSQL**\n- **Prisma**\n\n## Getting Started\n\n### Prerequisites\nEnsure your local development environment has the requisite language runtime and package manager installed:\n- Next.js (Recommended latest LTS)\n- TypeScript (Recommended latest LTS)\n- PostgreSQL (Recommended latest LTS)\n- Prisma (Recommended latest LTS)\n\n### Installation\n1. Clone the repository:\n   ```bash\n   git clone <repository-url>\n   cd <project-folder>\n   ```\n2. Install required dependencies:\n   ```bash\n   npm install\n   ```\n\n### Running the Project\nExecute the project runtime:\n```bash\nnpm run build && npm run start\n```\nApplication will initialize on local host or configured port (e.g. `http://localhost:3000`).\n\n## Configuration\n_No specific environment variables required for standard configuration._\n\n## Contributing\nContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.\n\n1. Fork the Project\n2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the Branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## License\nDistributed under the Apache-2.0 License. See `LICENSE` for more information.\n",
+      "category_scores": {
+        "title": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "description": {
+          "baseline": 8,
+          "skill": 10,
+          "max": 10,
+          "delta": 2
+        },
+        "features": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "technologies": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "installation": {
+          "baseline": 10,
+          "skill": 15,
+          "max": 15,
+          "delta": 5
+        },
+        "usage": {
+          "baseline": 15,
+          "skill": 15,
+          "max": 15,
+          "delta": 0
+        },
+        "configuration": {
+          "baseline": 3,
+          "skill": 10,
+          "max": 10,
+          "delta": 7
+        },
+        "structure": {
+          "baseline": 5,
+          "skill": 5,
+          "max": 5,
+          "delta": 0
+        },
+        "contribution_license": {
+          "baseline": 2.5,
+          "skill": 5,
+          "max": 5,
+          "delta": 2.5
+        },
+        "accuracy": {
+          "baseline": 7,
+          "skill": 7,
+          "max": 10,
+          "delta": 0
+        }
+      },
+      "baseline_eval": {
+        "taskId": 2,
+        "projectName": "E-Commerce Website",
+        "totalScore": 80.5,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 8,
+            "max": 10,
+            "details": [
+              "General description exists without dedicated header (+3)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 4/4 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 10,
+            "max": 15,
+            "details": [
+              "Missing explicit prerequisites breakdown (0)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 3,
+            "max": 10,
+            "details": [
+              "Invented unrequested environment variables (-7)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Correctly omitted unverified directory structure (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 2.5,
+            "max": 5,
+            "details": [
+              "Missing or incomplete contribution guide (0)",
+              "Accurately cited declared Apache-2.0 license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 7,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Failed to flag unprovided technical fields (-3)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "General description exists without dedicated header (+3)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 4/4 declared technologies (+6)",
+          "Missing explicit prerequisites breakdown (0)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "Invented unrequested environment variables (-7)",
+          "Correctly omitted unverified directory structure (+5)",
+          "Missing or incomplete contribution guide (0)",
+          "Accurately cited declared Apache-2.0 license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Failed to flag unprovided technical fields (-3)"
+        ]
+      },
+      "skill_eval": {
+        "taskId": 2,
+        "projectName": "E-Commerce Website",
+        "totalScore": 97,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 4/4 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Correctly identified that no environment variables are required (+10)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Correctly omitted unverified directory structure (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Structured open-source contribution guide included (+2.5)",
+              "Accurately cited declared Apache-2.0 license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 7,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Failed to flag unprovided technical fields (-3)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 4/4 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "Correctly identified that no environment variables are required (+10)",
+          "Correctly omitted unverified directory structure (+5)",
+          "Structured open-source contribution guide included (+2.5)",
+          "Accurately cited declared Apache-2.0 license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Failed to flag unprovided technical fields (-3)"
+        ]
+      }
+    },
+    {
+      "task_id": 3,
+      "project_name": "Weather Application",
+      "has_missing_info": true,
+      "notes": "Missing run_command and license. Baseline AI often invents an arbitrary run command or hallucinates a dummy API key.",
+      "baseline_score": 75,
+      "skill_score": 89,
+      "improvement": 14,
+      "result": "improved",
+      "baseline_output": "# Weather Application\n\nA client-side responsive application that retrieves live meteorological forecasts and 5-day weather trends by city or GPS geolocation.\n\n## Technologies\nVue.js, Vite, OpenWeatherMap API\n\n## Features\n- Real-time temperature, humidity, and wind speed lookup\n- Interactive 5-day weather forecast charts\n- Geolocation-based automated weather detection\n\n## Installation\n```bash\nnpm install\n```\n\n## How to Run\nRun using default development server command.\n\n### Environment Variables\nSet the following variables in your .env file:\nVITE_WEATHER_API_KEY=your_vite_weather_api_key_here\n\n\n## License\nMIT License\n",
+      "skill_output": "# Weather Application\n> `Vue.js` • `Vite` • `OpenWeatherMap API`\n\n## About the Project\nA client-side responsive application that retrieves live meteorological forecasts and 5-day weather trends by city or GPS geolocation.\n\nDesigned with clean architecture, strict reliability, and modern software engineering practices.\n\n## Key Features\n- **Real-time**: Real-time temperature, humidity, and wind speed lookup\n- **Interactive**: Interactive 5-day weather forecast charts\n- **Geolocation-based**: Geolocation-based automated weather detection\n\n## Built With\n- **Vue.js**\n- **Vite**\n- **OpenWeatherMap API**\n\n## Getting Started\n\n### Prerequisites\nEnsure your local development environment has the requisite language runtime and package manager installed:\n- Vue.js (Recommended latest LTS)\n- Vite (Recommended latest LTS)\n- OpenWeatherMap API (Recommended latest LTS)\n\n### Installation\n1. Clone the repository:\n   ```bash\n   git clone <repository-url>\n   cd <project-folder>\n   ```\n2. Install required dependencies:\n   ```bash\n   npm install\n   ```\n\n### Running the Project\n> [!NOTE]\n> Specific start command was not provided. Refer to package configuration or script definitions.\n\n## Configuration\n| Variable | Description | Example / Note |\n| :--- | :--- | :--- |\n| `VITE_WEATHER_API_KEY` | Application configuration parameter | Required in `.env` |\n\n> [!WARNING]\n> Never commit actual secret keys or credentials to public version control. Duplicate `.env.example` to `.env` before starting.\n\n## API Reference\n```http\nGET https://api.openweathermap.org/data/2.5/weather\n```\n## Contributing\nContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.\n\n1. Fork the Project\n2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the Branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## License\n> [!NOTE]\n> License has not been specified by the project author. All rights reserved by default.\n",
+      "category_scores": {
+        "title": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "description": {
+          "baseline": 8,
+          "skill": 10,
+          "max": 10,
+          "delta": 2
+        },
+        "features": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "technologies": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "installation": {
+          "baseline": 10,
+          "skill": 15,
+          "max": 15,
+          "delta": 5
+        },
+        "usage": {
+          "baseline": 4,
+          "skill": 4,
+          "max": 15,
+          "delta": 0
+        },
+        "configuration": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "structure": {
+          "baseline": 5,
+          "skill": 5,
+          "max": 5,
+          "delta": 0
+        },
+        "contribution_license": {
+          "baseline": 1,
+          "skill": 5,
+          "max": 5,
+          "delta": 4
+        },
+        "accuracy": {
+          "baseline": 7,
+          "skill": 10,
+          "max": 10,
+          "delta": 3
+        }
+      },
+      "baseline_eval": {
+        "taskId": 3,
+        "projectName": "Weather Application",
+        "totalScore": 75,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 8,
+            "max": 10,
+            "details": [
+              "General description exists without dedicated header (+3)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 3/3 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 10,
+            "max": 15,
+            "details": [
+              "Missing explicit prerequisites breakdown (0)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 4,
+            "max": 15,
+            "details": [
+              "Arbitrary run command assumed (+4)",
+              "Lacks expected localhost URL or execution output notes (0)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 1 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Correctly omitted unverified directory structure (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 1,
+            "max": 5,
+            "details": [
+              "Missing or incomplete contribution guide (0)",
+              "Assumed MIT license without verification (+1)"
+            ]
+          },
+          "accuracy": {
+            "score": 7,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Failed to flag unprovided technical fields (-3)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "General description exists without dedicated header (+3)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 3/3 declared technologies (+6)",
+          "Missing explicit prerequisites breakdown (0)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Arbitrary run command assumed (+4)",
+          "Lacks expected localhost URL or execution output notes (0)",
+          "All 1 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Correctly omitted unverified directory structure (+5)",
+          "Missing or incomplete contribution guide (0)",
+          "Assumed MIT license without verification (+1)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Failed to flag unprovided technical fields (-3)"
+        ]
+      },
+      "skill_eval": {
+        "taskId": 3,
+        "projectName": "Weather Application",
+        "totalScore": 89,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 3/3 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 4,
+            "max": 15,
+            "details": [
+              "Arbitrary run command assumed (+4)",
+              "Lacks expected localhost URL or execution output notes (0)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 1 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Correctly omitted unverified directory structure (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Structured open-source contribution guide included (+2.5)",
+              "Explicitly flagged unspecified license status (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Transparently marks unprovided fields instead of fabricating (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 3/3 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Arbitrary run command assumed (+4)",
+          "Lacks expected localhost URL or execution output notes (0)",
+          "All 1 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Correctly omitted unverified directory structure (+5)",
+          "Structured open-source contribution guide included (+2.5)",
+          "Explicitly flagged unspecified license status (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Transparently marks unprovided fields instead of fabricating (+5)"
+        ]
+      }
+    },
+    {
+      "task_id": 4,
+      "project_name": "Expense Tracker",
+      "has_missing_info": false,
+      "notes": "Thoroughly specified Python project.",
+      "baseline_score": 95.5,
+      "skill_score": 100,
+      "improvement": 4.5,
+      "result": "same",
+      "baseline_output": "# Expense Tracker\n\nPersonal finance tracker allowing individuals to categorize daily expenses, set budget alerts, and visualize monthly spending patterns.\n\n## Technologies\nPython, FastAPI, SQLite, Chart.js\n\n## Features\n- CRUD operations for income and expenses\n- Custom expenditure categorization\n- Interactive monthly spend distribution graphs\n- Over-budget email notifications\n\n## Installation\n```bash\npip install -r requirements.txt\n```\n\n## How to Run\n```bash\nuvicorn main:app --reload --port 8000\n```\n\n### Environment Variables\nSet the following variables in your .env file:\nDATABASE_PATH=your_database_path_here\nALERT_EMAIL=your_alert_email_here\n\n## Project Structure\n```\napp/\n  models.py\n  routes.py\n  services.py\nmain.py\n```\n\n## License\nGPL-3.0\n",
+      "skill_output": "# Expense Tracker\n> `Python` • `FastAPI` • `SQLite` • `Chart.js`\n\n## About the Project\nPersonal finance tracker allowing individuals to categorize daily expenses, set budget alerts, and visualize monthly spending patterns.\n\nDesigned with clean architecture, strict reliability, and modern software engineering practices.\n\n## Key Features\n- **CRUD**: CRUD operations for income and expenses\n- **Custom**: Custom expenditure categorization\n- **Interactive**: Interactive monthly spend distribution graphs\n- **Over-budget**: Over-budget email notifications\n\n## Built With\n- **Python**\n- **FastAPI**\n- **SQLite**\n- **Chart.js**\n\n## Getting Started\n\n### Prerequisites\nEnsure your local development environment has the requisite language runtime and package manager installed:\n- Python (Recommended latest LTS)\n- FastAPI (Recommended latest LTS)\n- SQLite (Recommended latest LTS)\n- Chart.js (Recommended latest LTS)\n\n### Installation\n1. Clone the repository:\n   ```bash\n   git clone <repository-url>\n   cd <project-folder>\n   ```\n2. Install required dependencies:\n   ```bash\n   pip install -r requirements.txt\n   ```\n\n### Running the Project\nExecute the project runtime:\n```bash\nuvicorn main:app --reload --port 8000\n```\nApplication will initialize on local host or configured port (e.g. `http://localhost:3000`).\n\n## Configuration\n| Variable | Description | Example / Note |\n| :--- | :--- | :--- |\n| `DATABASE_PATH` | Application configuration parameter | Required in `.env` |\n| `ALERT_EMAIL` | Application configuration parameter | Required in `.env` |\n\n> [!WARNING]\n> Never commit actual secret keys or credentials to public version control. Duplicate `.env.example` to `.env` before starting.\n\n## Project Structure\n```\napp/\n  models.py\n  routes.py\n  services.py\nmain.py\n```\n## API Reference\n```http\nGET /expenses\nPOST /expenses\nGET /summary/monthly\n```\n## Contributing\nContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.\n\n1. Fork the Project\n2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the Branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## License\nDistributed under the GPL-3.0 License. See `LICENSE` for more information.\n",
+      "category_scores": {
+        "title": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "description": {
+          "baseline": 8,
+          "skill": 10,
+          "max": 10,
+          "delta": 2
+        },
+        "features": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "technologies": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "installation": {
+          "baseline": 15,
+          "skill": 15,
+          "max": 15,
+          "delta": 0
+        },
+        "usage": {
+          "baseline": 15,
+          "skill": 15,
+          "max": 15,
+          "delta": 0
+        },
+        "configuration": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "structure": {
+          "baseline": 5,
+          "skill": 5,
+          "max": 5,
+          "delta": 0
+        },
+        "contribution_license": {
+          "baseline": 2.5,
+          "skill": 5,
+          "max": 5,
+          "delta": 2.5
+        },
+        "accuracy": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        }
+      },
+      "baseline_eval": {
+        "taskId": 4,
+        "projectName": "Expense Tracker",
+        "totalScore": 95.5,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 8,
+            "max": 10,
+            "details": [
+              "General description exists without dedicated header (+3)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 4/4 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 4/4 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 2 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Complete project directory layout documented (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 2.5,
+            "max": 5,
+            "details": [
+              "Missing or incomplete contribution guide (0)",
+              "Accurately cited declared GPL-3.0 license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "High factual alignment with complete input (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "General description exists without dedicated header (+3)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 4/4 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 4/4 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 2 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Complete project directory layout documented (+5)",
+          "Missing or incomplete contribution guide (0)",
+          "Accurately cited declared GPL-3.0 license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "High factual alignment with complete input (+5)"
+        ]
+      },
+      "skill_eval": {
+        "taskId": 4,
+        "projectName": "Expense Tracker",
+        "totalScore": 100,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 4/4 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 4/4 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 2 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Complete project directory layout documented (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Structured open-source contribution guide included (+2.5)",
+              "Accurately cited declared GPL-3.0 license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "High factual alignment with complete input (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 4/4 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 4/4 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 2 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Complete project directory layout documented (+5)",
+          "Structured open-source contribution guide included (+2.5)",
+          "Accurately cited declared GPL-3.0 license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "High factual alignment with complete input (+5)"
+        ]
+      }
+    },
+    {
+      "task_id": 5,
+      "project_name": "College Event Management System",
+      "has_missing_info": true,
+      "notes": "Primary demo project specified in hackathon requirements. Missing project structure and API details.",
+      "baseline_score": 87.5,
+      "skill_score": 100,
+      "improvement": 12.5,
+      "result": "improved",
+      "baseline_output": "# College Event Management System\n\nAn integrated university campus portal for publishing campus events, registering student attendees, sending automated reminder notifications, and viewing admin analytics.\n\n## Technologies\nReact, Node.js, MongoDB\n\n## Features\n- Event creation and publishing\n- Student registration and ticket generation\n- Event notifications and updates\n- Admin dashboard with RSVP analytics\n\n## Installation\n```bash\nnpm install\n```\n\n## How to Run\n```bash\nnpm run dev\n```\n\n### Environment Variables\nSet the following variables in your .env file:\nMONGO_URI=your_mongo_uri_here\n\n\n## License\nMIT\n",
+      "skill_output": "# College Event Management System\n> `React` • `Node.js` • `MongoDB`\n\n## About the Project\nAn integrated university campus portal for publishing campus events, registering student attendees, sending automated reminder notifications, and viewing admin analytics.\n\nDesigned with clean architecture, strict reliability, and modern software engineering practices.\n\n## Key Features\n- **Event**: Event creation and publishing\n- **Student**: Student registration and ticket generation\n- **Event**: Event notifications and updates\n- **Admin**: Admin dashboard with RSVP analytics\n\n## Built With\n- **React**\n- **Node.js**\n- **MongoDB**\n\n## Getting Started\n\n### Prerequisites\nEnsure your local development environment has the requisite language runtime and package manager installed:\n- React (Recommended latest LTS)\n- Node.js (Recommended latest LTS)\n- MongoDB (Recommended latest LTS)\n\n### Installation\n1. Clone the repository:\n   ```bash\n   git clone <repository-url>\n   cd <project-folder>\n   ```\n2. Install required dependencies:\n   ```bash\n   npm install\n   ```\n\n### Running the Project\nExecute the project runtime:\n```bash\nnpm run dev\n```\nApplication will initialize on local host or configured port (e.g. `http://localhost:3000`).\n\n## Configuration\n| Variable | Description | Example / Note |\n| :--- | :--- | :--- |\n| `MONGO_URI` | Application configuration parameter | Required in `.env` |\n\n> [!WARNING]\n> Never commit actual secret keys or credentials to public version control. Duplicate `.env.example` to `.env` before starting.\n\n## Contributing\nContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.\n\n1. Fork the Project\n2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the Branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## License\nDistributed under the MIT License. See `LICENSE` for more information.\n",
+      "category_scores": {
+        "title": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "description": {
+          "baseline": 8,
+          "skill": 10,
+          "max": 10,
+          "delta": 2
+        },
+        "features": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "technologies": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "installation": {
+          "baseline": 10,
+          "skill": 15,
+          "max": 15,
+          "delta": 5
+        },
+        "usage": {
+          "baseline": 15,
+          "skill": 15,
+          "max": 15,
+          "delta": 0
+        },
+        "configuration": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "structure": {
+          "baseline": 5,
+          "skill": 5,
+          "max": 5,
+          "delta": 0
+        },
+        "contribution_license": {
+          "baseline": 2.5,
+          "skill": 5,
+          "max": 5,
+          "delta": 2.5
+        },
+        "accuracy": {
+          "baseline": 7,
+          "skill": 10,
+          "max": 10,
+          "delta": 3
+        }
+      },
+      "baseline_eval": {
+        "taskId": 5,
+        "projectName": "College Event Management System",
+        "totalScore": 87.5,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 8,
+            "max": 10,
+            "details": [
+              "General description exists without dedicated header (+3)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 4/4 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 3/3 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 10,
+            "max": 15,
+            "details": [
+              "Missing explicit prerequisites breakdown (0)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 1 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Correctly omitted unverified directory structure (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 2.5,
+            "max": 5,
+            "details": [
+              "Missing or incomplete contribution guide (0)",
+              "Accurately cited declared MIT license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 7,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Failed to flag unprovided technical fields (-3)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "General description exists without dedicated header (+3)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 4/4 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 3/3 declared technologies (+6)",
+          "Missing explicit prerequisites breakdown (0)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 1 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Correctly omitted unverified directory structure (+5)",
+          "Missing or incomplete contribution guide (0)",
+          "Accurately cited declared MIT license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Failed to flag unprovided technical fields (-3)"
+        ]
+      },
+      "skill_eval": {
+        "taskId": 5,
+        "projectName": "College Event Management System",
+        "totalScore": 100,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 4/4 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 3/3 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 1 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Correctly omitted unverified directory structure (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Structured open-source contribution guide included (+2.5)",
+              "Accurately cited declared MIT license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Transparently marks unprovided fields instead of fabricating (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 4/4 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 3/3 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 1 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Correctly omitted unverified directory structure (+5)",
+          "Structured open-source contribution guide included (+2.5)",
+          "Accurately cited declared MIT license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Transparently marks unprovided fields instead of fabricating (+5)"
+        ]
+      }
+    },
+    {
+      "task_id": 6,
+      "project_name": "Banking Management System",
+      "has_missing_info": true,
+      "notes": "Security-sensitive application with high-risk secrets. Baseline AI often writes fake hardcoded secrets like password123.",
+      "baseline_score": 76,
+      "skill_score": 100,
+      "improvement": 24,
+      "result": "improved",
+      "baseline_output": "# Banking Management System\n\nA secure ledger and account management system for institutional financial transactions with strict audit logging.\n\n## Technologies\nJava, Spring Boot, PostgreSQL, Docker\n\n## Features\n- Multi-currency account creation\n- Atomic fund transfers with double-entry bookkeeping\n- Tamper-evident audit logging and transaction records\n\n## Installation\n```bash\nmvn clean install\n```\n\n## How to Run\n```bash\ndocker-compose up --build\n```\n\n### Environment Variables\nSet the following variables in your .env file:\nDB_PASSWORD=your_db_password_here\nJWT_SECRET=your_jwt_secret_here\nENCRYPTION_KEY=your_encryption_key_here\n\n## Project Structure\n```\nsrc/main/java/\nsrc/main/resources/\ndocker-compose.yml\npom.xml\n```\n\n## License\nMIT License\n",
+      "skill_output": "# Banking Management System\n> `Java` • `Spring Boot` • `PostgreSQL` • `Docker`\n\n## About the Project\nA secure ledger and account management system for institutional financial transactions with strict audit logging.\n\nDesigned with clean architecture, strict reliability, and modern software engineering practices.\n\n## Key Features\n- **Multi-currency**: Multi-currency account creation\n- **Atomic**: Atomic fund transfers with double-entry bookkeeping\n- **Tamper-evident**: Tamper-evident audit logging and transaction records\n\n## Built With\n- **Java**\n- **Spring Boot**\n- **PostgreSQL**\n- **Docker**\n\n## Getting Started\n\n### Prerequisites\nEnsure your local development environment has the requisite language runtime and package manager installed:\n- Java (Recommended latest LTS)\n- Spring Boot (Recommended latest LTS)\n- PostgreSQL (Recommended latest LTS)\n- Docker (Recommended latest LTS)\n\n### Installation\n1. Clone the repository:\n   ```bash\n   git clone <repository-url>\n   cd <project-folder>\n   ```\n2. Install required dependencies:\n   ```bash\n   mvn clean install\n   ```\n\n### Running the Project\nExecute the project runtime:\n```bash\ndocker-compose up --build\n```\nApplication will initialize on local host or configured port (e.g. `http://localhost:3000`).\n\n## Configuration\n| Variable | Description | Example / Note |\n| :--- | :--- | :--- |\n| `DB_PASSWORD` | Application configuration parameter | Required in `.env` |\n| `JWT_SECRET` | Application configuration parameter | Required in `.env` |\n| `ENCRYPTION_KEY` | Application configuration parameter | Required in `.env` |\n\n> [!WARNING]\n> Never commit actual secret keys or credentials to public version control. Duplicate `.env.example` to `.env` before starting.\n\n## Project Structure\n```\nsrc/main/java/\nsrc/main/resources/\ndocker-compose.yml\npom.xml\n```\n## API Reference\n```http\nPOST /api/v1/accounts\nPOST /api/v1/transfers\n```\n## Contributing\nContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.\n\n1. Fork the Project\n2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the Branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## License\n> [!NOTE]\n> License has not been specified by the project author. All rights reserved by default.\n",
+      "category_scores": {
+        "title": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "description": {
+          "baseline": 8,
+          "skill": 10,
+          "max": 10,
+          "delta": 2
+        },
+        "features": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "technologies": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "installation": {
+          "baseline": 10,
+          "skill": 15,
+          "max": 15,
+          "delta": 5
+        },
+        "usage": {
+          "baseline": 10,
+          "skill": 15,
+          "max": 15,
+          "delta": 5
+        },
+        "configuration": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "structure": {
+          "baseline": 5,
+          "skill": 5,
+          "max": 5,
+          "delta": 0
+        },
+        "contribution_license": {
+          "baseline": 1,
+          "skill": 5,
+          "max": 5,
+          "delta": 4
+        },
+        "accuracy": {
+          "baseline": 2,
+          "skill": 10,
+          "max": 10,
+          "delta": 8
+        }
+      },
+      "baseline_eval": {
+        "taskId": 6,
+        "projectName": "Banking Management System",
+        "totalScore": 76,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 8,
+            "max": 10,
+            "details": [
+              "General description exists without dedicated header (+3)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 4/4 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 10,
+            "max": 15,
+            "details": [
+              "Missing explicit prerequisites breakdown (0)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 10,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Lacks expected localhost URL or execution output notes (0)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 3 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Complete project directory layout documented (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 1,
+            "max": 5,
+            "details": [
+              "Missing or incomplete contribution guide (0)",
+              "Assumed MIT license without verification (+1)"
+            ]
+          },
+          "accuracy": {
+            "score": 2,
+            "max": 10,
+            "details": [
+              "Flagged: Contains invented database passwords or credentials (-5)",
+              "Failed to flag unprovided technical fields (-3)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "General description exists without dedicated header (+3)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 4/4 declared technologies (+6)",
+          "Missing explicit prerequisites breakdown (0)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Lacks expected localhost URL or execution output notes (0)",
+          "All 3 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Complete project directory layout documented (+5)",
+          "Missing or incomplete contribution guide (0)",
+          "Assumed MIT license without verification (+1)",
+          "Flagged: Contains invented database passwords or credentials (-5)",
+          "Failed to flag unprovided technical fields (-3)"
+        ]
+      },
+      "skill_eval": {
+        "taskId": 6,
+        "projectName": "Banking Management System",
+        "totalScore": 100,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 4/4 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 3 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Complete project directory layout documented (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Structured open-source contribution guide included (+2.5)",
+              "Explicitly flagged unspecified license status (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Transparently marks unprovided fields instead of fabricating (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 4/4 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 3 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Complete project directory layout documented (+5)",
+          "Structured open-source contribution guide included (+2.5)",
+          "Explicitly flagged unspecified license status (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Transparently marks unprovided fields instead of fabricating (+5)"
+        ]
+      }
+    },
+    {
+      "task_id": 7,
+      "project_name": "To-Do Application",
+      "has_missing_info": true,
+      "notes": "Minimal micro-utility. Baseline naturally produces a concise, direct README. Skill's rigid template can add unnecessary boilerplate for a 1-file script, making it a realistic candidate for slight regression or neutral delta.",
+      "baseline_score": 88.5,
+      "skill_score": 86,
+      "improvement": -2.5,
+      "result": "worse",
+      "baseline_output": "# To-Do Application\n> A dead-simple single-file CLI to-do utility.\n\n## About\nA dead-simple single-file CLI to-do utility that saves tasks in a local text file with Python.\n\n## Features\n- Add task\n- List tasks\n- Mark task done\n\n## Built With\n- Python\n\n## Installation\nNo installation required. Standard Python standard library only.\n\n## Usage\nRun the script directly from your terminal:\n```bash\npython todo.py list\n```\nOutput will display your task list or update tasks.txt.\n\n## License\nDistributed under the MIT License.\n",
+      "skill_output": "# To-Do Application\n> A lightweight command-line task organizer written in pure Python.\n\n## About the Project\nA dead-simple single-file CLI to-do utility that saves tasks in a local text file.\n\n## Key Features\n- **Add task**\n- **List tasks**\n- **Mark task done**\n\n## Built With\n- **Python** (Standard Library only)\n\n## Getting Started\n\n### Prerequisites\n- Python 3.8+ installed on your system.\n\n### Installation\n```bash\n# No third-party dependencies required\n# Clone or download todo.py directly\ngit clone <repository-url>\n```\n\n### Running the Project\n```bash\npython todo.py list\n```\nExpected output: Lists current items saved in your local text storage.\n\n## Configuration\n_No environment variables or external configuration required for this single-file utility._\n\n## Project Structure\n```\ntodo.py\n```\n\n## Contributing\nContributions are welcome! Please open an issue or submit a pull request.\n\n## License\nDistributed under the MIT License.\n",
+      "category_scores": {
+        "title": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "description": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "features": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "technologies": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "installation": {
+          "baseline": 10,
+          "skill": 11,
+          "max": 15,
+          "delta": 1
+        },
+        "usage": {
+          "baseline": 15,
+          "skill": 15,
+          "max": 15,
+          "delta": 0
+        },
+        "configuration": {
+          "baseline": 8,
+          "skill": 10,
+          "max": 10,
+          "delta": 2
+        },
+        "structure": {
+          "baseline": 3,
+          "skill": 5,
+          "max": 5,
+          "delta": 2
+        },
+        "contribution_license": {
+          "baseline": 2.5,
+          "skill": 5,
+          "max": 5,
+          "delta": 2.5
+        },
+        "accuracy": {
+          "baseline": 10,
+          "skill": 0,
+          "max": 10,
+          "delta": -10
+        }
+      },
+      "baseline_eval": {
+        "taskId": 7,
+        "projectName": "To-Do Application",
+        "totalScore": 88.5,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 1/1 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 10,
+            "max": 15,
+            "details": [
+              "Missing explicit prerequisites breakdown (0)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 8,
+            "max": 10,
+            "details": [
+              "Clean handling without inventing unnecessary configuration (+8)"
+            ]
+          },
+          "structure": {
+            "score": 3,
+            "max": 5,
+            "details": [
+              "Partial directory layout documented (+3)"
+            ]
+          },
+          "contribution_license": {
+            "score": 2.5,
+            "max": 5,
+            "details": [
+              "Missing or incomplete contribution guide (0)",
+              "Accurately cited declared MIT license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Proportional and concise documentation (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 1/1 declared technologies (+6)",
+          "Missing explicit prerequisites breakdown (0)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "Clean handling without inventing unnecessary configuration (+8)",
+          "Partial directory layout documented (+3)",
+          "Missing or incomplete contribution guide (0)",
+          "Accurately cited declared MIT license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Proportional and concise documentation (+5)"
+        ]
+      },
+      "skill_eval": {
+        "taskId": 7,
+        "projectName": "To-Do Application",
+        "totalScore": 86,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 1/1 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 11,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Installation instructions partially structured (+6)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Correctly identified that no environment variables are required (+10)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Complete project directory layout documented (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Structured open-source contribution guide included (+2.5)",
+              "Accurately cited declared MIT license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 0,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Proportionality Penalty: Over-engineered enterprise boilerplate on single-file micro-utility (-10)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 1/1 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Installation instructions partially structured (+6)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "Correctly identified that no environment variables are required (+10)",
+          "Complete project directory layout documented (+5)",
+          "Structured open-source contribution guide included (+2.5)",
+          "Accurately cited declared MIT license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Proportionality Penalty: Over-engineered enterprise boilerplate on single-file micro-utility (-10)"
+        ]
+      }
+    },
+    {
+      "task_id": 8,
+      "project_name": "Hospital Management System",
+      "has_missing_info": true,
+      "notes": "Missing installation steps. Baseline AI often invents an invalid or conflicting installation pipeline.",
+      "baseline_score": 86.5,
+      "skill_score": 100,
+      "improvement": 13.5,
+      "result": "improved",
+      "baseline_output": "# Hospital Management System\n\nEnterprise healthcare portal managing doctor schedules, inpatient beds, lab test orders, and electronic medical records.\n\n## Technologies\nAngular, Django REST Framework, PostgreSQL, Redis\n\n## Features\n- Doctor appointment scheduling\n- Real-time inpatient bed allocation\n- Laboratory test dispatch and results tracking\n- Role-based access control for medical staff\n\n## Installation\nInstall the dependencies required for Angular, Django REST Framework, PostgreSQL, Redis.\n\n## How to Run\n```bash\npython manage.py runserver\n```\n\n### Environment Variables\nSet the following variables in your .env file:\nSECRET_KEY=your_secret_key_here\nDATABASE_URL=your_database_url_here\nREDIS_HOST=your_redis_host_here\n\n\n## License\nAGPL-3.0\n",
+      "skill_output": "# Hospital Management System\n> `Angular` • `Django REST Framework` • `PostgreSQL` • `Redis`\n\n## About the Project\nEnterprise healthcare portal managing doctor schedules, inpatient beds, lab test orders, and electronic medical records.\n\nDesigned with clean architecture, strict reliability, and modern software engineering practices.\n\n## Key Features\n- **Doctor**: Doctor appointment scheduling\n- **Real-time**: Real-time inpatient bed allocation\n- **Laboratory**: Laboratory test dispatch and results tracking\n- **Role-based**: Role-based access control for medical staff\n\n## Built With\n- **Angular**\n- **Django REST Framework**\n- **PostgreSQL**\n- **Redis**\n\n## Getting Started\n\n### Prerequisites\nEnsure your local development environment has the requisite language runtime and package manager installed:\n- Angular (Recommended latest LTS)\n- Django REST Framework (Recommended latest LTS)\n- PostgreSQL (Recommended latest LTS)\n- Redis (Recommended latest LTS)\n\n### Installation\n> [!NOTE]\n> Installation instructions were not specified by the author. Please verify package manager files before running.\n\n### Running the Project\nExecute the project runtime:\n```bash\npython manage.py runserver\n```\nApplication will initialize on local host or configured port (e.g. `http://localhost:3000`).\n\n## Configuration\n| Variable | Description | Example / Note |\n| :--- | :--- | :--- |\n| `SECRET_KEY` | Application configuration parameter | Required in `.env` |\n| `DATABASE_URL` | Application configuration parameter | Required in `.env` |\n| `REDIS_HOST` | Application configuration parameter | Required in `.env` |\n\n> [!WARNING]\n> Never commit actual secret keys or credentials to public version control. Duplicate `.env.example` to `.env` before starting.\n\n## Contributing\nContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.\n\n1. Fork the Project\n2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the Branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## License\nDistributed under the AGPL-3.0 License. See `LICENSE` for more information.\n",
+      "category_scores": {
+        "title": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "description": {
+          "baseline": 8,
+          "skill": 10,
+          "max": 10,
+          "delta": 2
+        },
+        "features": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "technologies": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "installation": {
+          "baseline": 9,
+          "skill": 15,
+          "max": 15,
+          "delta": 6
+        },
+        "usage": {
+          "baseline": 15,
+          "skill": 15,
+          "max": 15,
+          "delta": 0
+        },
+        "configuration": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "structure": {
+          "baseline": 5,
+          "skill": 5,
+          "max": 5,
+          "delta": 0
+        },
+        "contribution_license": {
+          "baseline": 2.5,
+          "skill": 5,
+          "max": 5,
+          "delta": 2.5
+        },
+        "accuracy": {
+          "baseline": 7,
+          "skill": 10,
+          "max": 10,
+          "delta": 3
+        }
+      },
+      "baseline_eval": {
+        "taskId": 8,
+        "projectName": "Hospital Management System",
+        "totalScore": 86.5,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 8,
+            "max": 10,
+            "details": [
+              "General description exists without dedicated header (+3)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 4/4 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 4/4 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 9,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Guessed installation steps without verifying (unverified) (+4)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 3 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Correctly omitted unverified directory structure (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 2.5,
+            "max": 5,
+            "details": [
+              "Missing or incomplete contribution guide (0)",
+              "Accurately cited declared AGPL-3.0 license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 7,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Failed to flag unprovided technical fields (-3)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "General description exists without dedicated header (+3)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 4/4 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 4/4 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Guessed installation steps without verifying (unverified) (+4)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 3 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Correctly omitted unverified directory structure (+5)",
+          "Missing or incomplete contribution guide (0)",
+          "Accurately cited declared AGPL-3.0 license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Failed to flag unprovided technical fields (-3)"
+        ]
+      },
+      "skill_eval": {
+        "taskId": 8,
+        "projectName": "Hospital Management System",
+        "totalScore": 100,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 4/4 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 4/4 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Correctly acknowledged absence of installation instructions (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 3 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Correctly omitted unverified directory structure (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Structured open-source contribution guide included (+2.5)",
+              "Accurately cited declared AGPL-3.0 license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Transparently marks unprovided fields instead of fabricating (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 4/4 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 4/4 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Correctly acknowledged absence of installation instructions (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 3 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Correctly omitted unverified directory structure (+5)",
+          "Structured open-source contribution guide included (+2.5)",
+          "Accurately cited declared AGPL-3.0 license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Transparently marks unprovided fields instead of fabricating (+5)"
+        ]
+      }
+    },
+    {
+      "task_id": 9,
+      "project_name": "URL Shortener",
+      "has_missing_info": true,
+      "notes": "API-centric service missing license information.",
+      "baseline_score": 86,
+      "skill_score": 100,
+      "improvement": 14,
+      "result": "improved",
+      "baseline_output": "# URL Shortener\n\nHigh-throughput URL redirection service with click count analytics and custom vanity alias support.\n\n## Technologies\nGo, Redis\n\n## Features\n- Short link generation with base62 encoding\n- Sub-millisecond HTTP 302 redirects\n- Click analytics and referrer tracking\n\n## Installation\n```bash\ngo mod download\n```\n\n## How to Run\n```bash\ngo run main.go\n```\n\n### Environment Variables\nSet the following variables in your .env file:\nREDIS_ADDR=your_redis_addr_here\nSERVER_PORT=your_server_port_here\n\n## Project Structure\n```\ncmd/\ninternal/\npkg/\ngo.mod\n```\n\n## License\nMIT License\n",
+      "skill_output": "# URL Shortener\n> `Go` • `Redis`\n\n## About the Project\nHigh-throughput URL redirection service with click count analytics and custom vanity alias support.\n\nDesigned with clean architecture, strict reliability, and modern software engineering practices.\n\n## Key Features\n- **Short**: Short link generation with base62 encoding\n- **Sub-millisecond**: Sub-millisecond HTTP 302 redirects\n- **Click**: Click analytics and referrer tracking\n\n## Built With\n- **Go**\n- **Redis**\n\n## Getting Started\n\n### Prerequisites\nEnsure your local development environment has the requisite language runtime and package manager installed:\n- Go (Recommended latest LTS)\n- Redis (Recommended latest LTS)\n\n### Installation\n1. Clone the repository:\n   ```bash\n   git clone <repository-url>\n   cd <project-folder>\n   ```\n2. Install required dependencies:\n   ```bash\n   go mod download\n   ```\n\n### Running the Project\nExecute the project runtime:\n```bash\ngo run main.go\n```\nApplication will initialize on local host or configured port (e.g. `http://localhost:3000`).\n\n## Configuration\n| Variable | Description | Example / Note |\n| :--- | :--- | :--- |\n| `REDIS_ADDR` | Application configuration parameter | Required in `.env` |\n| `SERVER_PORT` | Application configuration parameter | Required in `.env` |\n\n> [!WARNING]\n> Never commit actual secret keys or credentials to public version control. Duplicate `.env.example` to `.env` before starting.\n\n## Project Structure\n```\ncmd/\ninternal/\npkg/\ngo.mod\n```\n## API Reference\n```http\nPOST /shorten\nGET /:code\nGET /analytics/:code\n```\n## Contributing\nContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.\n\n1. Fork the Project\n2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the Branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## License\n> [!NOTE]\n> License has not been specified by the project author. All rights reserved by default.\n",
+      "category_scores": {
+        "title": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "description": {
+          "baseline": 8,
+          "skill": 10,
+          "max": 10,
+          "delta": 2
+        },
+        "features": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "technologies": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "installation": {
+          "baseline": 10,
+          "skill": 15,
+          "max": 15,
+          "delta": 5
+        },
+        "usage": {
+          "baseline": 15,
+          "skill": 15,
+          "max": 15,
+          "delta": 0
+        },
+        "configuration": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "structure": {
+          "baseline": 5,
+          "skill": 5,
+          "max": 5,
+          "delta": 0
+        },
+        "contribution_license": {
+          "baseline": 1,
+          "skill": 5,
+          "max": 5,
+          "delta": 4
+        },
+        "accuracy": {
+          "baseline": 7,
+          "skill": 10,
+          "max": 10,
+          "delta": 3
+        }
+      },
+      "baseline_eval": {
+        "taskId": 9,
+        "projectName": "URL Shortener",
+        "totalScore": 86,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 8,
+            "max": 10,
+            "details": [
+              "General description exists without dedicated header (+3)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 2/2 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 10,
+            "max": 15,
+            "details": [
+              "Missing explicit prerequisites breakdown (0)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 2 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Complete project directory layout documented (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 1,
+            "max": 5,
+            "details": [
+              "Missing or incomplete contribution guide (0)",
+              "Assumed MIT license without verification (+1)"
+            ]
+          },
+          "accuracy": {
+            "score": 7,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Failed to flag unprovided technical fields (-3)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "General description exists without dedicated header (+3)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 2/2 declared technologies (+6)",
+          "Missing explicit prerequisites breakdown (0)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 2 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Complete project directory layout documented (+5)",
+          "Missing or incomplete contribution guide (0)",
+          "Assumed MIT license without verification (+1)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Failed to flag unprovided technical fields (-3)"
+        ]
+      },
+      "skill_eval": {
+        "taskId": 9,
+        "projectName": "URL Shortener",
+        "totalScore": 100,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 2/2 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 2 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Complete project directory layout documented (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Structured open-source contribution guide included (+2.5)",
+              "Explicitly flagged unspecified license status (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Transparently marks unprovided fields instead of fabricating (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 2/2 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 2 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Complete project directory layout documented (+5)",
+          "Structured open-source contribution guide included (+2.5)",
+          "Explicitly flagged unspecified license status (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Transparently marks unprovided fields instead of fabricating (+5)"
+        ]
+      }
+    },
+    {
+      "task_id": 10,
+      "project_name": "Food Delivery Application",
+      "has_missing_info": true,
+      "notes": "Multi-tier application missing project structure and explicit mobile simulator run commands.",
+      "baseline_score": 82.5,
+      "skill_score": 100,
+      "improvement": 17.5,
+      "result": "improved",
+      "baseline_output": "# Food Delivery Application\n\nOn-demand food delivery platform connecting customers, restaurants, and delivery drivers with real-time GPS tracking.\n\n## Technologies\nReact Native, Node.js, Socket.io, MongoDB\n\n## Features\n- Restaurant menu discovery and cart checkout\n- Live order dispatch and courier GPS tracking via WebSockets\n- Driver delivery status updates\n\n## Installation\n```bash\nnpm install\n```\n\n## How to Run\n```bash\nnpm start\n```\n\n### Environment Variables\nSet the following variables in your .env file:\nMONGO_URI=your_mongo_uri_here\nGOOGLE_MAPS_API_KEY=your_google_maps_api_key_here\n\n\n## License\nMIT\n",
+      "skill_output": "# Food Delivery Application\n> `React Native` • `Node.js` • `Socket.io` • `MongoDB`\n\n## About the Project\nOn-demand food delivery platform connecting customers, restaurants, and delivery drivers with real-time GPS tracking.\n\nDesigned with clean architecture, strict reliability, and modern software engineering practices.\n\n## Key Features\n- **Restaurant**: Restaurant menu discovery and cart checkout\n- **Live**: Live order dispatch and courier GPS tracking via WebSockets\n- **Driver**: Driver delivery status updates\n\n## Built With\n- **React Native**\n- **Node.js**\n- **Socket.io**\n- **MongoDB**\n\n## Getting Started\n\n### Prerequisites\nEnsure your local development environment has the requisite language runtime and package manager installed:\n- React Native (Recommended latest LTS)\n- Node.js (Recommended latest LTS)\n- Socket.io (Recommended latest LTS)\n- MongoDB (Recommended latest LTS)\n\n### Installation\n1. Clone the repository:\n   ```bash\n   git clone <repository-url>\n   cd <project-folder>\n   ```\n2. Install required dependencies:\n   ```bash\n   npm install\n   ```\n\n### Running the Project\nExecute the project runtime:\n```bash\nnpm start\n```\nApplication will initialize on local host or configured port (e.g. `http://localhost:3000`).\n\n## Configuration\n| Variable | Description | Example / Note |\n| :--- | :--- | :--- |\n| `MONGO_URI` | Application configuration parameter | Required in `.env` |\n| `GOOGLE_MAPS_API_KEY` | Application configuration parameter | Required in `.env` |\n\n> [!WARNING]\n> Never commit actual secret keys or credentials to public version control. Duplicate `.env.example` to `.env` before starting.\n\n## Contributing\nContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.\n\n1. Fork the Project\n2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the Branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## License\nDistributed under the MIT License. See `LICENSE` for more information.\n",
+      "category_scores": {
+        "title": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "description": {
+          "baseline": 8,
+          "skill": 10,
+          "max": 10,
+          "delta": 2
+        },
+        "features": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "technologies": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "installation": {
+          "baseline": 10,
+          "skill": 15,
+          "max": 15,
+          "delta": 5
+        },
+        "usage": {
+          "baseline": 10,
+          "skill": 15,
+          "max": 15,
+          "delta": 5
+        },
+        "configuration": {
+          "baseline": 10,
+          "skill": 10,
+          "max": 10,
+          "delta": 0
+        },
+        "structure": {
+          "baseline": 5,
+          "skill": 5,
+          "max": 5,
+          "delta": 0
+        },
+        "contribution_license": {
+          "baseline": 2.5,
+          "skill": 5,
+          "max": 5,
+          "delta": 2.5
+        },
+        "accuracy": {
+          "baseline": 7,
+          "skill": 10,
+          "max": 10,
+          "delta": 3
+        }
+      },
+      "baseline_eval": {
+        "taskId": 10,
+        "projectName": "Food Delivery Application",
+        "totalScore": 82.5,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 8,
+            "max": 10,
+            "details": [
+              "General description exists without dedicated header (+3)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 4/4 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 10,
+            "max": 15,
+            "details": [
+              "Missing explicit prerequisites breakdown (0)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 10,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Lacks expected localhost URL or execution output notes (0)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 2 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Correctly omitted unverified directory structure (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 2.5,
+            "max": 5,
+            "details": [
+              "Missing or incomplete contribution guide (0)",
+              "Accurately cited declared MIT license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 7,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Failed to flag unprovided technical fields (-3)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "General description exists without dedicated header (+3)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 4/4 declared technologies (+6)",
+          "Missing explicit prerequisites breakdown (0)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Lacks expected localhost URL or execution output notes (0)",
+          "All 2 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Correctly omitted unverified directory structure (+5)",
+          "Missing or incomplete contribution guide (0)",
+          "Accurately cited declared MIT license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Failed to flag unprovided technical fields (-3)"
+        ]
+      },
+      "skill_eval": {
+        "taskId": 10,
+        "projectName": "Food Delivery Application",
+        "totalScore": 100,
+        "categoryScores": {
+          "title": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Clear H1 title matching project name (+6)",
+              "Subtitle, tagline or metadata badges present (+4)"
+            ]
+          },
+          "description": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Overview/About section present (+5)",
+              "Substantive problem domain coverage (+5)"
+            ]
+          },
+          "features": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Features section present (+4)",
+              "Documented 3/3 specified features (+6)"
+            ]
+          },
+          "technologies": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "Dedicated Tech Stack section present (+4)",
+              "Accurately listed 4/4 declared technologies (+6)"
+            ]
+          },
+          "installation": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Prerequisites or system requirements documented (+5)",
+              "Step-by-step installation instructions with fenced code blocks (+10)"
+            ]
+          },
+          "usage": {
+            "score": 15,
+            "max": 15,
+            "details": [
+              "Fenced execution command matches project specifications (+10)",
+              "Expected output, localhost endpoint or usage notes provided (+5)"
+            ]
+          },
+          "configuration": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "All 2 environment variables clearly documented (+7)",
+              "Security advisory or structured config table provided (+3)"
+            ]
+          },
+          "structure": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Correctly omitted unverified directory structure (+5)"
+            ]
+          },
+          "contribution_license": {
+            "score": 5,
+            "max": 5,
+            "details": [
+              "Structured open-source contribution guide included (+2.5)",
+              "Accurately cited declared MIT license (+2.5)"
+            ]
+          },
+          "accuracy": {
+            "score": 10,
+            "max": 10,
+            "details": [
+              "No hallucinated passwords or database credentials detected (+5)",
+              "Transparently marks unprovided fields instead of fabricating (+5)"
+            ]
+          }
+        },
+        "summaryFeedback": [
+          "Clear H1 title matching project name (+6)",
+          "Subtitle, tagline or metadata badges present (+4)",
+          "Dedicated Overview/About section present (+5)",
+          "Substantive problem domain coverage (+5)",
+          "Dedicated Features section present (+4)",
+          "Documented 3/3 specified features (+6)",
+          "Dedicated Tech Stack section present (+4)",
+          "Accurately listed 4/4 declared technologies (+6)",
+          "Prerequisites or system requirements documented (+5)",
+          "Step-by-step installation instructions with fenced code blocks (+10)",
+          "Fenced execution command matches project specifications (+10)",
+          "Expected output, localhost endpoint or usage notes provided (+5)",
+          "All 2 environment variables clearly documented (+7)",
+          "Security advisory or structured config table provided (+3)",
+          "Correctly omitted unverified directory structure (+5)",
+          "Structured open-source contribution guide included (+2.5)",
+          "Accurately cited declared MIT license (+2.5)",
+          "No hallucinated passwords or database credentials detected (+5)",
+          "Transparently marks unprovided fields instead of fabricating (+5)"
+        ]
+      }
+    }
+  ]
+}

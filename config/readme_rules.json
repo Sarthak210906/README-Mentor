@@ -1,0 +1,46 @@
+{
+  "rules": [
+    {
+      "id": "RULE-01",
+      "name": "Complete Required Sections",
+      "summary": "Always include standard repository headers: Title, About, Features, Tech Stack, Getting Started, Configuration, Contributing, and License.",
+      "category": "structure",
+      "severity": "critical"
+    },
+    {
+      "id": "RULE-02",
+      "name": "Zero Hallucination of Credentials & Secrets",
+      "summary": "Never invent database passwords, API keys, JWT secrets, or cloud tokens. Mark unknown credentials as required user input.",
+      "category": "accuracy",
+      "severity": "critical"
+    },
+    {
+      "id": "RULE-03",
+      "name": "Strict Code Fencing for Commands",
+      "summary": "Wrap all shell commands, scripts, and runtime executions in markdown fenced code blocks with language identifiers (bash, sh, js).",
+      "category": "installation",
+      "severity": "high"
+    },
+    {
+      "id": "RULE-04",
+      "name": "Explicit Missing Information Callouts",
+      "summary": "When configuration, license, or parameters are omitted from the input, explicitly state their absence rather than generating plausible false defaults.",
+      "category": "accuracy",
+      "severity": "high"
+    },
+    {
+      "id": "RULE-05",
+      "name": "Project-Specific Tech Stack Grounding",
+      "summary": "Only list technologies, libraries, and frameworks that were explicitly provided in the project specification.",
+      "category": "technologies",
+      "severity": "medium"
+    },
+    {
+      "id": "RULE-06",
+      "name": "Document Environment Configuration Safely",
+      "summary": "Format environment variables in a dedicated Markdown table specifying variable names, descriptions, and placeholder values without exposing secrets.",
+      "category": "configuration",
+      "severity": "medium"
+    }
+  ]
+}

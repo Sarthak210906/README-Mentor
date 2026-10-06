@@ -1,0 +1,106 @@
+{
+  "rubric_name": "Standard Software README Quality Rubric",
+  "version": "1.0.0",
+  "total_points": 100,
+  "categories": [
+    {
+      "id": "title",
+      "name": "Project Title",
+      "max_points": 10,
+      "description": "Is the title clear, prominent (H1), matches the project name, and includes relevant metadata or tagline?",
+      "criteria": [
+        "H1 heading matching project name (6 pts)",
+        "Clear tagline, subtitle or status badge (4 pts)"
+      ]
+    },
+    {
+      "id": "description",
+      "name": "Project Description",
+      "max_points": 10,
+      "description": "Does the README clearly explain what the project does and the problem it solves?",
+      "criteria": [
+        "Dedicated overview / about section (5 pts)",
+        "Accurate, substantive summary of domain and goals (5 pts)"
+      ]
+    },
+    {
+      "id": "features",
+      "name": "Features",
+      "max_points": 10,
+      "description": "Are the major features clearly itemized and explained?",
+      "criteria": [
+        "Dedicated features section (4 pts)",
+        "Accurate coverage of declared features without omission (6 pts)"
+      ]
+    },
+    {
+      "id": "technologies",
+      "name": "Technologies",
+      "max_points": 10,
+      "description": "Are technologies correctly identified and listed without missing declared stack components?",
+      "criteria": [
+        "Dedicated Tech Stack or Built With section (4 pts)",
+        "Accurate inclusion of specified frameworks and languages (6 pts)"
+      ]
+    },
+    {
+      "id": "installation",
+      "name": "Installation",
+      "max_points": 15,
+      "description": "Are installation requirements and step-by-step commands clear and fenced?",
+      "criteria": [
+        "Prerequisites or system requirements identified (5 pts)",
+        "Step-by-step installation instructions with fenced code blocks (10 pts)"
+      ]
+    },
+    {
+      "id": "usage",
+      "name": "Usage / Running Instructions",
+      "max_points": 15,
+      "description": "Can a new developer understand how to run the project with clear execution commands?",
+      "criteria": [
+        "Clear run command in fenced code block matching declared runtime (10 pts)",
+        "Expected output, port, or usage notes (5 pts)"
+      ]
+    },
+    {
+      "id": "configuration",
+      "name": "Configuration",
+      "max_points": 10,
+      "description": "Are environment variables/configuration documented when applicable, or marked as none when absent?",
+      "criteria": [
+        "If env vars specified: table or list describing each variable (10 pts)",
+        "If no env vars specified: states no configuration needed or handles cleanly (10 pts)"
+      ]
+    },
+    {
+      "id": "structure",
+      "name": "Project Structure",
+      "max_points": 5,
+      "description": "Is the project structure documented when information is available?",
+      "criteria": [
+        "Directory layout / architecture tree provided or appropriately handled (5 pts)"
+      ]
+    },
+    {
+      "id": "contribution_license",
+      "name": "Contribution / License",
+      "max_points": 5,
+      "description": "Are contribution guidelines and licensing details handled appropriately?",
+      "criteria": [
+        "Contribution workflow or pull request guide (2.5 pts)",
+        "License section matching declared license or noting absence (2.5 pts)"
+      ]
+    },
+    {
+      "id": "accuracy",
+      "name": "Accuracy / No Hallucination",
+      "max_points": 10,
+      "description": "Does the README avoid inventing fake API keys, passwords, database credentials, non-existent endpoints or dependencies?",
+      "criteria": [
+        "No hallucinated secrets, DB credentials, or false API URLs (6 pts)",
+        "Missing information explicitly identified rather than fabricated (4 pts)"
+      ]
+    }
+  ]
+}

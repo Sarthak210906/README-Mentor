@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1,
+    "project_name": "Student Attendance Management System",
+    "description": "A modern web application designed for schools and universities to automate attendance marking, student profile management, and periodic attendance reporting.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "features": [
+      "Student registration and profile management",
+      "One-click classroom attendance marking",
+      "Automated attendance percentage calculations",
+      "Exportable monthly attendance reports (PDF/CSV)"
+    ],
+    "installation": "npm install",
+    "run_command": "npm run dev",
+    "environment_variables": ["MONGO_URI", "JWT_SECRET", "PORT"],
+    "project_structure": "src/\n  components/\n  controllers/\n  models/\n  routes/\nserver.js",
+    "api_info": "POST /api/students - Register student\nPOST /api/attendance - Mark attendance\nGET /api/reports/:id - Fetch report",
+    "license": "MIT",
+    "has_missing_info": false,
+    "notes": "Complete project information provided across all fields."
+  },
+  {
+    "id": 2,
+    "project_name": "E-Commerce Website",
+    "description": "A full-featured digital marketplace featuring shopping carts, customer review workflows, and catalog browsing.",
+    "technologies": ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
+    "features": [
+      "Product catalog with dynamic filtering and search",
+      "Persistent user shopping cart",
+      "Customer reviews and star ratings"
+    ],
+    "installation": "npm install",
+    "run_command": "npm run build && npm run start",
+    "environment_variables": null,
+    "project_structure": null,
+    "api_info": null,
+    "license": "Apache-2.0",
+    "has_missing_info": true,
+    "notes": "Missing environment variables and project structure. Database is PostgreSQL/Prisma so baseline models might invent DATABASE_URL."
+  },
+  {
+    "id": 3,
+    "project_name": "Weather Application",
+    "description": "A client-side responsive application that retrieves live meteorological forecasts and 5-day weather trends by city or GPS geolocation.",
+    "technologies": ["Vue.js", "Vite", "OpenWeatherMap API"],
+    "features": [
+      "Real-time temperature, humidity, and wind speed lookup",
+      "Interactive 5-day weather forecast charts",
+      "Geolocation-based automated weather detection"
+    ],
+    "installation": "npm install",
+    "run_command": null,
+    "environment_variables": ["VITE_WEATHER_API_KEY"],
+    "project_structure": null,
+    "api_info": "GET https://api.openweathermap.org/data/2.5/weather",
+    "license": null,
+    "has_missing_info": true,
+    "notes": "Missing run_command and license. Baseline AI often invents an arbitrary run command or hallucinates a dummy API key."
+  },
+  {
+    "id": 4,
+    "project_name": "Expense Tracker",
+    "description": "Personal finance tracker allowing individuals to categorize daily expenses, set budget alerts, and visualize monthly spending patterns.",
+    "technologies": ["Python", "FastAPI", "SQLite", "Chart.js"],
+    "features": [
+      "CRUD operations for income and expenses",
+      "Custom expenditure categorization",
+      "Interactive monthly spend distribution graphs",
+      "Over-budget email notifications"
+    ],
+    "installation": "pip install -r requirements.txt",
+    "run_command": "uvicorn main:app --reload --port 8000",
+    "environment_variables": ["DATABASE_PATH", "ALERT_EMAIL"],
+    "project_structure": "app/\n  models.py\n  routes.py\n  services.py\nmain.py",
+    "api_info": "GET /expenses\nPOST /expenses\nGET /summary/monthly",
+    "license": "GPL-3.0",
+    "has_missing_info": false,
+    "notes": "Thoroughly specified Python project."
+  },
+  {
+    "id": 5,
+    "project_name": "College Event Management System",
+    "description": "An integrated university campus portal for publishing campus events, registering student attendees, sending automated reminder notifications, and viewing admin analytics.",
+    "technologies": ["React", "Node.js", "MongoDB"],
+    "features": [
+      "Event creation and publishing",
+      "Student registration and ticket generation",
+      "Event notifications and updates",
+      "Admin dashboard with RSVP analytics"
+    ],
+    "installation": "npm install",
+    "run_command": "npm run dev",
+    "environment_variables": ["MONGO_URI"],
+    "project_structure": null,
+    "api_info": null,
+    "license": "MIT",
+    "has_missing_info": true,
+    "notes": "Primary demo project specified in hackathon requirements. Missing project structure and API details."
+  },
+  {
+    "id": 6,
+    "project_name": "Banking Management System",
+    "description": "A secure ledger and account management system for institutional financial transactions with strict audit logging.",
+    "technologies": ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+    "features": [
+      "Multi-currency account creation",
+      "Atomic fund transfers with double-entry bookkeeping",
+      "Tamper-evident audit logging and transaction records"
+    ],
+    "installation": "mvn clean install",
+    "run_command": "docker-compose up --build",
+    "environment_variables": ["DB_PASSWORD", "JWT_SECRET", "ENCRYPTION_KEY"],
+    "project_structure": "src/main/java/\nsrc/main/resources/\ndocker-compose.yml\npom.xml",
+    "api_info": "POST /api/v1/accounts\nPOST /api/v1/transfers",
+    "license": null,
+    "has_missing_info": true,
+    "notes": "Security-sensitive application with high-risk secrets. Baseline AI often writes fake hardcoded secrets like password123."
+  },
+  {
+    "id": 7,
+    "project_name": "To-Do Application",
+    "description": "A dead-simple single-file CLI to-do utility that saves tasks in a local text file.",
+    "technologies": ["Python"],
+    "features": [
+      "Add task",
+      "List tasks",
+      "Mark task done"
+    ],
+    "installation": "No installation required. Standard Python standard library only.",
+    "run_command": "python todo.py list",
+    "environment_variables": null,
+    "project_structure": "todo.py",
+    "api_info": null,
+    "license": "MIT",
+    "has_missing_info": true,
+    "notes": "Minimal micro-utility. Baseline naturally produces a concise, direct README. Skill's rigid template can add unnecessary boilerplate for a 1-file script, making it a realistic candidate for slight regression or neutral delta."
+  },
+  {
+    "id": 8,
+    "project_name": "Hospital Management System",
+    "description": "Enterprise healthcare portal managing doctor schedules, inpatient beds, lab test orders, and electronic medical records.",
+    "technologies": ["Angular", "Django REST Framework", "PostgreSQL", "Redis"],
+    "features": [
+      "Doctor appointment scheduling",
+      "Real-time inpatient bed allocation",
+      "Laboratory test dispatch and results tracking",
+      "Role-based access control for medical staff"
+    ],
+    "installation": null,
+    "run_command": "python manage.py runserver",
+    "environment_variables": ["SECRET_KEY", "DATABASE_URL", "REDIS_HOST"],
+    "project_structure": null,
+    "api_info": null,
+    "license": "AGPL-3.0",
+    "has_missing_info": true,
+    "notes": "Missing installation steps. Baseline AI often invents an invalid or conflicting installation pipeline."
+  },
+  {
+    "id": 9,
+    "project_name": "URL Shortener",
+    "description": "High-throughput URL redirection service with click count analytics and custom vanity alias support.",
+    "technologies": ["Go", "Redis"],
+    "features": [
+      "Short link generation with base62 encoding",
+      "Sub-millisecond HTTP 302 redirects",
+      "Click analytics and referrer tracking"
+    ],
+    "installation": "go mod download",
+    "run_command": "go run main.go",
+    "environment_variables": ["REDIS_ADDR", "SERVER_PORT"],
+    "project_structure": "cmd/\ninternal/\npkg/\ngo.mod",
+    "api_info": "POST /shorten\nGET /:code\nGET /analytics/:code",
+    "license": null,
+    "has_missing_info": true,
+    "notes": "API-centric service missing license information."
+  },
+  {
+    "id": 10,
+    "project_name": "Food Delivery Application",
+    "description": "On-demand food delivery platform connecting customers, restaurants, and delivery drivers with real-time GPS tracking.",
+    "technologies": ["React Native", "Node.js", "Socket.io", "MongoDB"],
+    "features": [
+      "Restaurant menu discovery and cart checkout",
+      "Live order dispatch and courier GPS tracking via WebSockets",
+      "Driver delivery status updates"
+    ],
+    "installation": "npm install",
+    "run_command": "npm start",
+    "environment_variables": ["MONGO_URI", "GOOGLE_MAPS_API_KEY"],
+    "project_structure": null,
+    "api_info": null,
+    "license": "MIT",
+    "has_missing_info": true,
+    "notes": "Multi-tier application missing project structure and explicit mobile simulator run commands."
+  }
+]
